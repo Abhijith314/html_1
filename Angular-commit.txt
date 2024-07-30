@@ -1,3 +1,18 @@
+…or create a new repository on the command line
+echo "# Angular" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Abhijith314/Angular.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Abhijith314/Angular.git
+git branch -M main
+git push -u origin main
+
+
 1. git init
 2. git add.
 3. git commit -m "name"
@@ -8,3 +23,5 @@
 1. npm install -g angular-cli-ghpages
 2. ng build --configuration production --base-href "https://username.github.io/name/"
 3. ngh --dir dist/project-name
+
+ng build --output-path docs --base-href /your-repository-name/

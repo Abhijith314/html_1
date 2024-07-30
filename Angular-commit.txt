@@ -1,0 +1,10 @@
+1. git init
+2. git add.
+3. git commit -m "name"
+4. git remote add origin https://github.com/user-name/name.git
+5. git push-u origin master
+
+
+1. npm install -g angular-cli-ghpages
+2. ng build --configuration production --base-href "https://username.github.io/name/"
+3. ngh --dir dist/project-name
